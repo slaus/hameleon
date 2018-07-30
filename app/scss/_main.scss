@@ -1,0 +1,428 @@
+/*!
+ * Main content
+ */
+
+.main {
+
+  & .best {
+    min-height: 200px;
+    background: $grey;
+    
+    & .item {
+
+      @media screen and (max-width: 767px) {}
+
+      &-number {
+        display: block;
+        width: 140px;
+        height: 140px;
+        border: 10px solid $green;
+        background: $white;
+        border-radius: 50%;
+        margin-top: -75px;
+        color: $green;
+        font-size: 34px;
+        line-height: 115px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+
+        @media screen and (max-width: 767px) {
+          width: 100px;
+          height: 100px;
+          margin-top: -55px;
+          font-size: 22px;
+          line-height: 80px;
+        }
+      }
+      
+      &-description {
+        font-size: 19px;
+        color: $white;
+        text-transform: uppercase;
+        padding-left: 12%;
+        padding-right: 12%;
+
+        @media screen and (max-width: 1199px) {
+          font-size: 18px;
+          padding-left: 10%;
+          padding-right: 10%;
+        }
+        @media screen and (max-width: 991px) {
+          font-size: 14px;
+          padding-left: 0;
+          padding-right: 0;
+        }
+        @media screen and (max-width: 767px) {
+          font-size: 12px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+  & h2.title {
+    font-size: 24px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+    & span {
+      color: $green;
+    }
+  }
+
+  & .steps {
+    margin-bottom: 40px;
+    padding: 30px;
+    background: url("../images/bg-2.jpg") center center no-repeat;
+    background-size: cover;
+    color: $white;
+
+    & .borderred {
+      border-right: 2px dashed $white;
+      margin-right: 10px;
+      margin-left: -10px;
+
+      @media screen and(max-width: 767px) {
+        border-right: 0;
+        margin-right: 0;
+        margin-left: 0;
+      }
+    }
+
+    &-1 {
+      background: url("../images/1.png") center bottom no-repeat;
+      background-size: contain;
+      width: 95%;
+      height: 95%;
+
+      @media screen and(max-width: 767px) {
+        width: 100%;
+        height: 100%;
+      }
+      @media screen and(max-width: 599px) {
+        background-position: -35px bottom;
+      }
+    }
+    &-2 {
+      background: url("../images/2.png") center bottom no-repeat;
+      background-size: contain;
+      width: 95%;
+      height: 95%;
+
+      @media screen and(max-width: 767px) {
+        width: 100%;
+        height: 100%;
+      }
+      @media screen and(max-width: 599px) {
+        background-position: -35px bottom;
+      }
+    }
+    &-3 {
+      background: url("../images/3.png") center bottom no-repeat;
+      background-size: contain;
+      width: 95%;
+      height: 95%;
+
+      @media screen and(max-width: 767px) {
+        width: 100%;
+        height: 100%;
+      }
+      @media screen and(max-width: 599px) {
+        background-position: -35px bottom;
+      }
+    }
+    &-4 {
+      background: url("../images/4.png") center bottom no-repeat;
+      background-size: contain;
+      width: 95%;
+      height: 95%;
+
+      @media screen and(max-width: 767px) {
+        width: 100%;
+        height: 100%;
+      }
+      @media screen and(max-width: 599px) {
+        background-position: -35px bottom;
+      }
+    }
+    &-5 {
+      background: url("../images/5.png") center bottom no-repeat;
+      background-size: contain;
+      width: 95%;
+      height: 95%;
+
+      @media screen and(max-width: 767px) {
+        width: 100%;
+        height: 100%;
+      }
+      @media screen and(max-width: 599px) {
+        background-position: -35px bottom;
+      }
+    }
+    &-6 {
+      background: url("../images/6.png") center bottom no-repeat;
+      background-size: contain;
+      width: 95%;
+      height: 95%;
+
+      @media screen and(max-width: 767px) {
+        width: 100%;
+        height: 100%;
+      }
+      @media screen and(max-width: 599px) {
+        background-position: -35px bottom;
+      }
+    }
+    &-7 {
+      background: url("../images/7.png") center bottom no-repeat;
+      background-size: contain;
+      width: 95%;
+      height: 95%;
+
+      @media screen and(max-width: 767px) {
+        width: 100%;
+        height: 100%;
+      }
+      @media screen and(max-width: 599px) {
+        background-position: -35px bottom;
+      }
+    }
+    &-8 {
+      background: url("../images/8.png") center bottom no-repeat;
+      background-size: contain;
+      width: 95%;
+      height: 95%;
+
+      @media screen and(max-width: 767px) {
+        width: 100%;
+        height: 100%;
+      }
+      @media screen and(max-width: 599px) {
+        background-position: -35px bottom;
+      }
+    }
+
+    &-item {
+      min-height: 175px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      position: relative;
+      padding-left: 180px;
+
+      @media screen and(max-width: 1199px) {
+        padding-left: 140px;
+      }
+
+      @media screen and(max-width: 991px) {
+        padding-left: 110px;
+      }
+
+      @media screen and(max-width: 767px) {
+        padding-left: 32%;
+      }
+      @media screen and(max-width: 599px) {
+        padding-left: 25%;
+      }
+
+      & img {
+        position: absolute;
+        right: 0;
+        top: 0;
+
+        @media screen and(max-width: 991px) {
+          width: 15%;
+          height: auto;
+        }
+        @media screen and(max-width: 767px) {
+          width: auto;
+        }
+        @media screen and(max-width: 599px) {
+          width: 12%;
+          height: auto;
+        }
+      }
+
+      & h3 {
+        padding-right: 80px;
+        height: 55px;
+        margin-top: 0px;
+        margin-bottom: 25px;
+        line-height: 20px;
+
+        @media screen and(max-width: 991px) {
+          margin-left: -100px;
+          padding-right: 35px;
+        }
+        @media screen and(max-width: 767px) {
+          margin-left: 0;
+        }
+        @media screen and(max-width: 599px) {
+          padding-right: 50px;
+          margin-left: -25%;
+        }
+      }
+
+      & p {
+        line-height: 20px;
+        margin-bottom: 20px;
+
+        @media screen and(max-width: 991px) {
+          height: 120px;
+        }
+        @media screen and(max-width: 767px) {
+          padding-right: 70px;
+        }
+        @media screen and(max-width: 599px) {
+          padding-right: 0;
+        }
+      }
+    }
+  }
+
+  & .software {
+    min-height: 550px;
+    background: url("../images/bg-3.jpg") center center no-repeat;
+    background-size: cover;
+    -moz-box-shadow: -4px -4px 8px 5px rgba(0,0,0,.12);
+    -webkit-box-shadow: -4px -4px 8px 5px rgba(0,0,0,.12);
+    box-shadow: -4px -4px 8px 5px rgba(0,0,0,.12);
+    padding-bottom: 20px;
+
+    & .item {
+      margin-bottom: 20px;
+      
+      & img {
+        float: left;
+      }
+
+      & *:not(img) {
+        padding-left: 110px;
+
+        @media screen and (max-width: 1199px) {
+          padding-left: 80px;
+        }
+      }
+
+      & h3 {
+        margin-top: 0;
+        color: $green;
+      }
+    }
+  }
+
+  & .type {
+    height: 210px;
+    margin-bottom: 20px;
+
+    @media screen and (max-width: 599px) {
+      width: 100%;
+    }
+
+    & img {
+      margin-top: 10px;
+      transition: .3s;
+    }
+
+    & h4 {
+      margin-top: 10px;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    & a {
+      transition: .3s;
+
+      &:hover img {
+        filter: brightness(0) invert(1);
+        transition: .3s;
+      }
+    }
+
+    &-1 {
+      display: block;
+      color: $black;
+      height: 100%;
+      background: url("../images/bg-4.jpg") center center no-repeat;
+      background-size: cover;
+      -moz-box-shadow: -4px -3px 5px rgba(0,0,0,.3);
+      -webkit-box-shadow: -4px -3px 5px rgba(0,0,0,.3);
+      box-shadow: -4px -3px 5px rgba(0,0,0,.3);
+    }
+    &-2 {
+      display: block;
+      color: $black;
+      height: 100%;
+      background: url("../images/bg-5.jpg") center center no-repeat;
+      background-size: cover;
+      -moz-box-shadow: -4px -3px 5px rgba(0,0,0,.3);
+      -webkit-box-shadow: -4px -3px 5px rgba(0,0,0,.3);
+      box-shadow: -4px -3px 5px rgba(0,0,0,.3);
+    }
+    &-3 {
+      display: block;
+      color: $black;
+      height: 100%;
+      background: url("../images/bg-6.jpg") center center no-repeat;
+      background-size: cover;
+      -moz-box-shadow: -4px -3px 5px rgba(0,0,0,.3);
+      -webkit-box-shadow: -4px -3px 5px rgba(0,0,0,.3);
+      box-shadow: -4px -3px 5px rgba(0,0,0,.3);
+    }
+    &-4 {
+      display: block;
+      color: $black;
+      height: 100%;
+      background: url("../images/bg-7.jpg") center center no-repeat;
+      background-size: cover;
+      -moz-box-shadow: -4px -3px 5px rgba(0,0,0,.3);
+      -webkit-box-shadow: -4px -3px 5px rgba(0,0,0,.3);
+      box-shadow: -4px -3px 5px rgba(0,0,0,.3);
+    }
+  }
+  
+  & .feedback {
+    background: $light-grey;
+    padding-bottom: 40px;
+  }
+}
+.hvr-sweep-to-bottom {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+}
+.hvr-sweep-to-bottom:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(39,187,191,.5);
+  -webkit-transform: scaleY(0);
+  transform: scaleY(0);
+  -webkit-transform-origin: 50% 0;
+  transform-origin: 50% 0;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-sweep-to-bottom:hover, .hvr-sweep-to-bottom:focus, .hvr-sweep-to-bottom:active {
+  color: white;
+  text-decoration: none;
+}
+.hvr-sweep-to-bottom:hover:before, .hvr-sweep-to-bottom:focus:before, .hvr-sweep-to-bottom:active:before {
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+}
